@@ -37,6 +37,8 @@ Big shout out to Naomi Cheruto Lagat, couldn't have done it without you.
 
 Special thanks to Erick Mong'are our TM and to Monica Mwangi my study buddy.
 
+Last but, not least I'd like to appreciate my fellow comrades in this journey to being software engineers. Your questions, contributions and pointers have all been a big help! 
+
 
 # License
  The MIT License (MIT)
