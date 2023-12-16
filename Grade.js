@@ -1,6 +1,8 @@
 // Student Grade Generator
 
+//Fucnction to implement correct grade 
 function studentMark(mark){
+// 1st 'if' condition ensures mark is within 0 and 100
     if (mark > 100 || mark < 0){
         return 'Please key in correct grade!'
     }
@@ -22,7 +24,7 @@ function studentMark(mark){
     
 } 
 console.log(studentMark(53));  
-
+// This function is used for the prompt window on the browser
 function showGrade(){
     const entGrade = parseInt( prompt ('Enter mark'));
     const studentGrade = studentMark(entGrade);

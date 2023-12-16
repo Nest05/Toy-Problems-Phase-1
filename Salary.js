@@ -5,7 +5,7 @@
 // NSSF function
 // Net Salary function
 
-
+// fuction to calculate PaYe
 function knowPaye(salary){
   if (salary <= 24000){
     return salary * 0.1;
@@ -24,11 +24,11 @@ function knowPaye(salary){
   }
 
 }
-
+// function to calculate Nssf
 function knowNssf(salary){
     return salary * 0.06;
 }
-
+// function to calculate Nhif
 function knowNhif(salary){
     if (salary <= 5999){
         return 150;
@@ -70,7 +70,7 @@ function knowNhif(salary){
 
 }
 
-
+// function to prompt on Browser
 function netSalaryReceived(){
     const baseSalary = prompt ('Key in your Base Salary',);
     const benefits = prompt ('Key in your benefits',);
