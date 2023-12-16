@@ -1,7 +1,10 @@
 // Student Grade Generator
 
 function studentMark(mark){
-    if (mark > 79){
+    if (mark > 100 || mark < 0){
+        return 'Please key in correct grade!'
+    }
+    else if (mark > 79){
         return 'A';
     }
     else if(mark >= 60){
@@ -13,9 +16,10 @@ function studentMark(mark){
     }
     else if(mark >= 40)
         return 'D-';
-    else {
+    else if(mark < 40){
         return 'E';
     }
+    
 } 
 console.log(studentMark(53));  
 
