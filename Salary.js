@@ -79,3 +79,37 @@ function netSalaryReceived(){
     alert (`Your Net Salary is: ${nestSalary}`);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

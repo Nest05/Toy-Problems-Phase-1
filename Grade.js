@@ -18,3 +18,9 @@ function studentMark(mark){
     }
 } 
 console.log(studentMark(53));  
+
+function showGrade(){
+    const entGrade = parseInt( prompt ('Enter mark'));
+    const studentGrade = studentMark(entGrade);
+    alert(`The grade is: ${studentGrade}`);
+}

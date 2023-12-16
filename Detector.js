@@ -21,3 +21,9 @@ function calculateDemeritPoints(speed){
       return 'Points:' + demeritPoints;
 }
 console.log(calculateDemeritPoints(150));
+
+function showDemPoints(){
+    const entSpeed = parseInt(prompt ('Enter speed'));
+    const demPoints = calculateDemeritPoints(entSpeed);
+    alert(`${demPoints}!`);
+}
