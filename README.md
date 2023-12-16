@@ -18,6 +18,12 @@ The Toy Problem consists of 3 different challenges;
 - Used if ... else if statements to calculate the tax and prompts to allow for input and output of net salary.
 
 
+# Behaviour Driven Development
+- User clicks on any of the three buttons: Student Grade, Demerit points, Know your net salary.
+- User is prompted to input details depending on what button was pressed i.e Enter mark, Enter speed, Key in your base salary.
+- Upon submitting the correct details, user receives an ouput corresponding to the input details
+
+
 # Set Up
 Run:
 git clone git@github.com:Nest05/Toy-Problems-Phase-1.git
