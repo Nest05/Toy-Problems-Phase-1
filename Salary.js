@@ -19,14 +19,19 @@ function knowPaye(salary){
   else if(salary => 500001){
     return salary * 0.325;
   }
-  else{
+  else if(salary > 800000){
     return salary * 0.35;
   }
 
 }
 // function to calculate Nssf
 function knowNssf(salary){
-    return salary * 0.06;
+    const nssf = salary * 0.06
+     if (nssf < 6000){
+        return nssf;
+     }else{
+        return 6000;
+     }
 }
 // function to calculate Nhif
 function knowNhif(salary){
