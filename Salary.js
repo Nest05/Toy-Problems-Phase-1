@@ -10,13 +10,13 @@ function knowPaye(salary){
   if (salary <= 24000){
     return salary * 0.1;
   }
-  else if(salary => 24001){
+  else if(salary >= 24001){
     return salary * 0.25;
   }
-  else if(salary => 32334){
+  else if(salary >= 32334){
     return salary * 0.3;
   }
-  else if(salary => 500001){
+  else if(salary >= 500001){
     return salary * 0.325;
   }
   else if(salary > 800000){
